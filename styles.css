@@ -103,3 +103,15 @@ p {
   .button-main:active{ 
     opacity: .5;
   }
+
+  @media screen and (max-width: 900px){
+
+    header{
+        display: none;
+    }
+    
+    p{
+        display: none;
+    }
+  
+  }
